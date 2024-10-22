@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Fleur de Luxe<span>.</span></h1>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="review.html">Review</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                <a href="#"><i class="fa fa-user"></i></a>
+                <a href="#"><i class="fa fa-heart"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2><b>Fresh Flowers</b></h2>
+            <p class="subtitle"><b>Natural & Beautiful Flowers</b></p>
+            <p><b>“Where flowers bloom so does hope.”</b></p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="Designer.png" alt="Fresh Flowers">
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About <span>Us</span></h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="img1.jpg" alt="Best Flower Sellers">
+                <p><strong>Best Flower Sellers</strong></p>
+            </div>
+            <div class="about-text">
+                <h3>Why Choose Us</h3>
+                <p>Choosing any supplier is difficult, but flowers are such an emotive and visual experience that you want to be absolutely certain that your choice is the right one.</p>
+                <p> At Fleur de Luxe we understand that investing in flowers needs careful consideration and that the end result is both beautiful and has the desired impact.</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-box">
+            <i class="fa fa-truck"></i>
+            <p>Free Shipping on All Orders</p>
+        </div>
+        <div class="feature-box">
+            <i class="fa fa-undo"></i>
+            <p>10 Days Returns Moneyback Guarantee</p>
+        </div>
+        <div class="feature-box">
+            <i class="fa fa-gift"></i>
+            <p>Offer & Gift on All Orders</p>
+        </div>
+        <div class="feature-box">
+            <i class="fa fa-lock"></i>
+            <p>Secure Payment Protected by PayPal</p>
+        </div>
+    </section>
+
+    <section class="reviews-section">
+        <h2>Customer's <span>Review</span></h2>
+
+        <div class="reviews-container">
+            <!-- Review 1 -->
+            <div class="review-box">
+                <div class="rating">
+                    <span>★★★★★</span>
+                </div>
+                <p>The  team was dedicated and the choice of flowers and colors were great.t was the best place in town for exotic flowers and gifts.</p>
+                <div class="customer-info">
+                    <img src="girl.png" alt="John Doe">
+                    <h3>selena gomez</h3>
+                </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="review-box">
+                <div class="rating">
+                    <span>★★★★★</span>
+                </div>
+                <p>Decorators were good and created a good view for my sister's wedding. The delivery service was awesome.</p>
+                <div class="customer-info">
+                    <img src="boy.png" alt="John Doe">
+                    <h3>Johnny Deep</h3>
+                </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="review-box">
+                <div class="rating">
+                    <span>★★★★★</span>
+                </div>
+                <p>The ordering process was easy. Flowers were also delivered on time, and the flowers were beautiful. </p>
+                <div class="customer-info">
+                    <img src="women.png" alt="John Doe">
+                    <h3>Cristina Mustophor</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="contact-container">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+                <label for="number">Phone Number</label>
+                <input type="text" id="number" name="number" placeholder="Your phone number.." required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something.." required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+
+        <div class="contact-image">
+            <img src="img3.jpeg" alt="Flower Watering">
+        </div>
+    </div>
+
+</body>
+</html>
